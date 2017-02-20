@@ -1,0 +1,138 @@
+.main {
+	width: 100%;
+	height: 98vh;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	border: 0;
+}
+
+.topBar {
+	width: 100%;
+	height: 10%;
+	background-color: #EBE7AB;
+	display: inline-block;
+	font-size: 11;
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 2px;
+	border-size: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+.middleArea {
+	width: 100%;
+	height: 90%;
+	background-color: #E8E8E8;
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	text-align: center;
+	margin-top: 0px;
+	display: inline-block;
+}
+
+.title {
+	font-size: 50px;
+	font-family: "Broadway";
+	vertical-align: middle;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+	
+}
+
+.subTitle {
+	font-size: 40px;
+	font-family: "Broadway";
+	margin: 15px;
+	float: left;
+}
+
+#pastResults {
+	height: 50px;
+	width 150px;
+	float: right;
+	background-color: #BBAEE5;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	color: black;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+}
+
+#time {
+	width: 250px;
+	height: 8vh;
+	background-color: black;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20vh;
+	margin-bottom: 2vh;
+	border-radius: 20px;
+}
+
+
+.controlButton {
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	background-color: #CBCBCB;
+	font-size: 30px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+	border-size: 3px;
+	border-color: black;	
+}
+
+#pause {
+	color: #304099;
+}
+
+#pause:disabled {
+	color: #808080;
+}
+
+#record {
+	color: #D45241;
+}
+
+#record:disabled {
+	color: #808080;
+}
+
+#finish {
+	color: #006600;
+}
+
+#finish:disabled {
+	color: #808080;
+}
+
+#restart {
+    color: #fdff0a;
+}
+
+#restart:disabled {
+    color: #808080;
+}
+
+.bodyText {
+	font-size: 20px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 2px;
+}
