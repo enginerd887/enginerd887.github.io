@@ -40,7 +40,7 @@ restartButton.onclick = function() {
 }
 
 finishButton.onclick = function() {
-    location.href='InterviewResults.html';
+    location.href='InterviewResults.html?key='+h+ ':' +m+':'+s;
 }
 
 var t; var time; var stopped = false; var stoper;

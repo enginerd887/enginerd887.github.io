@@ -10,7 +10,7 @@
 .topBar {
 	width: 100%;
 	height: 10%;
-	background-color: #EBE7AB;
+	background-color: black;
 	display: inline-block;
 	font-size: 11;
 	margin: 0px;
@@ -24,7 +24,7 @@
 .middleArea {
 	width: 100%;
 	height: 90%;
-	background-color: #E8E8E8;
+	background-color: white;
 	margin: 0px;
 	padding: 0px;
 	border-width: 0px;
@@ -40,7 +40,7 @@
 	padding: 10px;
 	margin: 10px;
 	text-decoration: none;
-	color: black;
+	color: white;
 	
 }
 
@@ -55,12 +55,13 @@
 	height: 50px;
 	width 150px;
 	float: right;
-	background-color: #BBAEE5;
+	background-color: white;
 	margin-top: 20px;
 	margin-right: 5px;
 	margin-bottom: 5px;
 	color: black;
 	font-size: 24px;
+	font-color: white;
 	text-align: center;
 	border-radius: 12px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
