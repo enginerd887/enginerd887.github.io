@@ -23,6 +23,7 @@ recordButton.onclick = function() {
     recordButton.disabled = true;
     finishButton.disabled = true;
     restartButton.disabled = true;
+	time.disabled = true;
     startTimer();
 }
 
@@ -31,6 +32,7 @@ pauseButton.onclick = function() {
     recordButton.disabled = false;
     finishButton.disabled = false;
     restartButton.disabled = false;
+	time.disabled = false;
     stopTimer();
 }
 

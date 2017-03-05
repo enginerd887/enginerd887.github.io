@@ -84,6 +84,9 @@
 	border-radius: 20px;
 }
 
+#time:disabled{
+	background-color: #1961D6;
+}
 
 .controlButton {
 	height: 60px;
