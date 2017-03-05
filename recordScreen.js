@@ -7,11 +7,13 @@ finishButton.disabled = true;
 restartButton.disabled = true;
 
 var startTimer = function() {
+	document.getElementById('time').style.backgroundColor = "blue";
     this.startTime = new Date().getTime();
     Timer();
 }
 
 var stopTimer = function() {
+	document.getElementById('time').style.backgroundColor = "black";
     clearTimeout(t);
     this.pauseTime = new Date().getTime();
     stopped = true;
@@ -19,11 +21,11 @@ var stopTimer = function() {
 }
 
 recordButton.onclick = function() {
+	
     pauseButton.disabled = false;
     recordButton.disabled = true;
     finishButton.disabled = true;
     restartButton.disabled = true;
-	time.disabled = true;
     startTimer();
 }
 
@@ -32,7 +34,6 @@ pauseButton.onclick = function() {
     recordButton.disabled = false;
     finishButton.disabled = false;
     restartButton.disabled = false;
-	time.disabled = false;
     stopTimer();
 }
 
