@@ -99,6 +99,10 @@
 	border-color: black;	
 }
 
+.controlButton:hover{
+	background-color: #2A6CD6;
+}
+
 #pause {
 	color: #304099;
 }
@@ -106,6 +110,8 @@
 #pause:disabled {
 	color: #808080;
 }
+
+
 
 #record {
 	color: #D45241;
