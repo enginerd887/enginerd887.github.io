@@ -11,7 +11,8 @@
 	<div class="main">
 		<div class="topBar">
 			<a class="title" href="recordScreen.html">BackTalk</a>
-			<button id="pastResults" onclick="location.href='pastResults.html';">Past Results</button>
+			<button class="topBarButton" id="aboutUs" onclick="location.href='aboutUs.html';">About Us</button>
+			<button class="topBarButton" id="pastResults" onclick="location.href='pastResults.html';">Past Results</button>
 		</div>
 		
 		<div class="middleArea">
@@ -23,10 +24,10 @@
 				<div class="bodyText"> See your past results and progress by navigating to the "Past Results" tab. </div>
 			</div>
 			<div id="time">00:00:00</div>
-			<button class="controlButton" id="record">&#x2B24</button>
-			<button class="controlButton" id="pause">&#10073;&#10073;</button>
-			<button class="controlButton" id="finish">&#10004;</button>
-			<button class="controlButton" id="restart">&#8634;</button>
+			<button title="Record" class="controlButton" id="record">&#x2B24</button>
+			<button title="Pause Recording" class="controlButton" id="pause">&#10073;&#10073;</button>
+			<button title="Finish Recording" class="controlButton" id="finish">&#10004;</button>
+			<button title="Start Over" class="controlButton" id="restart">&#8634;</button>
 		</div>
 	</div>
 	<script src="recordScreen.js"></script>
