@@ -5,12 +5,12 @@ console.log(time);
 
 var nameForm = document.getElementById("nameForm");
 var recordingTitle = document.getElementById("recordingTitle");
-recordingTitle.style.visibility = "hidden";
+recordingTitle.style.display = "none";
 
 nameForm.onsubmit = function() {
 	recordingTitle.innerHTML = document.getElementById("name").value;
 
-	recordingTitle.style.visibility = "visible";
-	nameForm.style.visibility = "hidden";
+	recordingTitle.style.display = "block";
+	nameForm.style.display = "none";
 	return false;
 }
