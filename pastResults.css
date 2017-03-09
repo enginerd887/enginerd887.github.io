@@ -113,6 +113,15 @@ th,td {
 	text-align: left;
 }
 
+#speech{
+	text-decoration: none;
+	color: #000080;
+}
+
+#speechName:hover{
+	background-color: white;
+}
+
 th {
 	font-weight: bold;
 	
