@@ -114,3 +114,8 @@ th {
 	font-weight: bold;
 	
 }
+
+canvas {
+  margin: 30px auto;
+  display: block;
+}

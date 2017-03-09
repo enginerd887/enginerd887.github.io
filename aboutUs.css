@@ -36,11 +36,15 @@
 	margin: 0px;
 	padding: 0px;
 	border-width: 0px;
-	text-align: center;
+	text-align: left;
 	margin-top: 0px;
 	display: inline-block;
 }
 
+.bodyText{
+	font-size: 23px;
+	margin-left: 15px;
+}
 .contentArea{
 	width: 100%;
 	height: 30%;

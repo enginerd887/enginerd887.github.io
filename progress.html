@@ -4,21 +4,21 @@
 	<title>BackTalk</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="pastResults.css">
+	
 </head>
 
 <body>
 	<div class="main">
 		<div class="topBar">
 			<a class="title" href="recordScreen.html">BackTalk</a>
-			<button id="newRecordingButton" onclick="location.href='pastResults.html';">Past Results</button>
-			<button id="newRecordingButton" onclick="location.href='recordScreen.html';">New Recording</button>
+			<button class="topBarButton" onclick="location.href='pastResults.html';">Past Results</button>
+			<button class="topBarButton" onclick="location.href='recordScreen.html';">New Recording</button>
 		</div>
 		<div class="middleArea">
-			<img src="fillers.png" style="width:458px;height:348px;">
-			<br>
-			<img src="clarity.png" style="width:458px;height:348px;">
-
+		<p class="subTitle">Overall Progress</p>
+		<canvas id="FillerChart"></canvas>
+		<div id="myLegend"></div>
 		</div>
 	</div>
-	<script src="pastResults.js"></script>
+	<script type="text/javascript" src="progress.js"></script>
 </body>
